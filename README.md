@@ -1,6 +1,5 @@
-# CharlaBDDSpecFlowCypress
-
-Charla Técnica: 10 Cosas que Necesitas Saber Sobre BDD + Demo SpecFlow y Cypress
+Charla Técnica: 10 Cosas que Necesitas 
+Saber Sobre BDD + Demo SpecFlow y Cypress
 ================================================================================
 
 Para el proyecto de Visual Studio 2017 es necesario seguir los siguientes pasos:
