@@ -1,0 +1,12 @@
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csproj.CoreCompileInputs.cache
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe.config
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.pdb
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\nunit.framework.dll
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\System.ValueTuple.dll
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\nunit.framework.xml
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.exe
+C:\Users\rrozasn\documents\visual studio 2017\Projects\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.pdb
