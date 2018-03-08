@@ -15,19 +15,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		
-		<link rel="stylesheet" href="../shared/css/reveal.min.css">
-		<link rel="stylesheet" href="../shared/css/theme/default.css" id="theme">
-		<link rel="stylesheet" href="../shared/css/additional.css">
+		<link rel="stylesheet" href="shared/css/reveal.min.css">
+		<link rel="stylesheet" href="shared/css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="shared/css/additional.css">
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="../shared/lib/css/zenburn.css">
+		<link rel="stylesheet" href="shared/lib/css/zenburn.css">
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
-			document.write( '<link rel="stylesheet" href="../shared/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+			document.write( '<link rel="stylesheet" href="shared/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
 
 		<!--[if lt IE 9]>
-		<script src="../shared/lib/js/html5shiv.js"></script>
+		<script src="shared/lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
@@ -334,10 +334,7 @@ function linkify( selector ) {
 				<section>
 					<h2>Export to PDF</h2>
 					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
+					
 				</section>
 
 				<section>
@@ -368,8 +365,8 @@ function linkify( selector ) {
 
 		</div>
 
-		<script src="../shared/lib/js/head.min.js"></script>
-		<script src="../shared/js/reveal.min.js"></script>
+		<script src="shared/lib/js/head.min.js"></script>
+		<script src="shared/js/reveal.min.js"></script>
 
 		<script>
 
@@ -386,12 +383,12 @@ function linkify( selector ) {
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: '../shared/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '../shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '../shared/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '../shared/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: 'shared/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'shared/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'shared/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 
