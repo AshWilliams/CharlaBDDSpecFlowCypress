@@ -59,23 +59,40 @@
 						<code>Dan North</code><br>
 						<br>
 						<img src="img/DanNorth.jpg" alt="" style="background: none; box-shadow: none; border: none;">
-						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
-								proporciona una forma común para que los interesados ​​en negocios, los analistas y los desarrolladores describan el software 
-								y escriban las pruebas de aceptación. Si bien la logística de la estructura de las declaraciones de Gherkin es más 
-								o menos la misma entre las implementaciones, gran parte de la gramática difiere de un proyecto a otro. 
-								Las declaraciones básicas "Dado ... Cuándo ... Entonces" como terminología común permiten a los 
-								equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>
+						<p style="display: none">							
+							BDD es una evolución de TDD (Test Driven Development o Desarrollo Dirigido por Pruebas). 
+							De hecho, el concepto de BDD fue inicialmente introducido por Dan North como respuesta a los problemas 
+							que surgían al enseñar TDD.							
+							TDD está basado en 2 prácticas: Escribir las pruebas primero, y Refactorizar después:							
+							TDD: En primer lugar, se escribe una prueba y se verifica que las pruebas fallan. 
+							A continuación, se implementa el código que hace que la prueba pase satisfactoriamente 
+							y seguidamente se refactoriza el código escrito
+							
+							En BDD también vamos a escribir las pruebas antes de escribir el código fuente, 
+							pero en lugar de pruebas unitarias, lo que haremos será escribir pruebas que verifiquen que 
+							el comportamiento del código es correcto desde el punto de vista de negocio. 
+							Tras escribir las pruebas escribimos el código fuente de la funcionalidad que haga que 
+							estas pruebas pasen correctamente. Después refactorizamos el código fuente.
+							
+							BDD es un proceso de desarrollo de software que trata de combinar los aspectos puramente técnivos 
+							y los de negocio, de manera que tengamos un marco de trabajo, y un marco de pruebas, en el que los 
+							requisitos de negocio formen parte del proceso de desarrollo.
+						</p>
 				</section>
 				<section>
 						<h2>2- Qué es Cucumber</h2>
 						<br>
 						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
-						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
-								proporciona una forma común para que los interesados ​​en negocios, los analistas y los desarrolladores describan el software 
-								y escriban las pruebas de aceptación. Si bien la logística de la estructura de las declaraciones de Gherkin es más 
-								o menos la misma entre las implementaciones, gran parte de la gramática difiere de un proyecto a otro. 
-								Las declaraciones básicas "Dado ... Cuándo ... Entonces" como terminología común permiten a los 
-								equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>					
+						<p style="display: none">
+							Cucumber es una de las herramientas que podemos utilizar para automatizar nuestras 
+							pruebas en BDD. Cucumber nos va permitir ejecutar descripciones funcionales en texto 
+							plano como pruebas de software automatizadas.
+							
+							Cucumber fue creada en 2008 por Aslak Hellesoy y está escrito en Ruby, 
+							aunque tiene implementaciones para casi cualquier lenguaje de programación: 
+							JRuby (usando Cucumber-JVM), Java, Groovy, JavaScript, 
+							JavaScript (usando Cucumber-JVM y Rhino), Clojure, Gosu, Lua, 
+							.NET (usando SpecFlow), PHP (usando Behat), Jython, C++ o Tcl..</p>					
 				</section>
 				<section>
 						<h2>3- Qué es Gherkin</h2>
@@ -108,7 +125,7 @@ Feature: SpecFlowCalculadora
 							equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>
 				</section>
 				<section>
-						<h2>4- Qué es Cucumber</h2>
+						<h2>4- Palabras Clave</h2>
 						<br>
 						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
 						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
@@ -119,19 +136,7 @@ Feature: SpecFlowCalculadora
 								equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>
 				</section>
 				<section>
-						<h2>5- Qué es Cucumber</h2>
-						<br>
-						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
-						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
-								proporciona una forma común para que los interesados ​​en negocios, los analistas y los desarrolladores describan el software 
-								y escriban las pruebas de aceptación. Si bien la logística de la estructura de las declaraciones de Gherkin es más 
-								o menos la misma entre las implementaciones, gran parte de la gramática difiere de un proyecto a otro. 
-								Las declaraciones básicas "Dado ... Cuándo ... Entonces" como terminología común permiten a los 
-								equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>
-				</section>
-
-				<section>
-						<h2>5- Qué es Cucumber</h2>
+						<h2>5- Qué es SpecFlow</h2>
 						<br>
 						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
 						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
@@ -143,7 +148,14 @@ Feature: SpecFlowCalculadora
 				</section>
 
 				<section>
-						<h2>5- Qué es Cucumber</h2>
+						<h2>6- SpecFlow en Visual Studio 2017</h2>
+						<br>
+						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
+						
+				</section>
+
+				<section>
+						<h2>7- Demo BDD En Visual Studio 2017</h2>
 						<br>
 						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
 						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
@@ -154,7 +166,7 @@ Feature: SpecFlowCalculadora
 								equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>
 				</section>
 				<section>
-						<h2>5- Qué es Cucumber</h2>
+						<h2>8- Generación de Documentación Viva</h2>
 						<br>
 						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
 						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
