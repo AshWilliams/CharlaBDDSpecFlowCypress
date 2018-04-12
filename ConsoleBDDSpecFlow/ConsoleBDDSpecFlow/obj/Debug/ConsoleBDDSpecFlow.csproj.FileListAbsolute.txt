@@ -23,3 +23,17 @@ C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDS
 C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csproj.CoreCompileInputs.cache
 C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.exe
 C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.pdb
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe.config
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.pdb
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\nunit.framework.dll
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\System.ValueTuple.dll
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\nunit.framework.xml
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csprojResolveAssemblyReference.cache
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csproj.CoreCompileInputs.cache
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csproj.CopyComplete
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.exe
+C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.pdb
