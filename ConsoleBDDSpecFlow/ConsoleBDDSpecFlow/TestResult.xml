@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-04-12" time="16:27:19">
+  <environment nunit-version="3.5.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow" machine-name="HACHIMAN" user="rrozasn" user-domain="NUBOX" />
+  <culture-info current-culture="es-CL" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\Users\rrozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe" executed="True" result="Success" success="True" time="0.280" asserts="2">
+    <properties>
+      <property name="_PID" value="22364" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="ConsoleBDDSpecFlow" executed="True" result="Success" success="True" time="0.270" asserts="2">
+        <results>
+          <test-suite type="TestFixture" name="SpecFlowCalculadoraFeature" description="SpecFlowCalculadora" executed="True" result="Success" success="True" time="0.268" asserts="2">
+            <properties>
+              <property name="Description" value="SpecFlowCalculadora" />
+            </properties>
+            <results>
+              <test-case name="ConsoleBDDSpecFlow.SpecFlowCalculadoraFeature.RestarDosNumeros" description="Restar Dos Números" executed="True" result="Success" success="True" time="0.094" asserts="1">
+                <properties>
+                  <property name="Description" value="Restar Dos Números" />
+                </properties>
+              </test-case>
+              <test-case name="ConsoleBDDSpecFlow.SpecFlowCalculadoraFeature.SumarDosNumeros" description="Sumar Dos Números" executed="True" result="Success" success="True" time="0.002" asserts="1">
+                <categories>
+                  <category name="mytag" />
+                </categories>
+                <properties>
+                  <property name="Description" value="Sumar Dos Números" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

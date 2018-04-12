@@ -1,0 +1,20 @@
+=> ConsoleBDDSpecFlow.SpecFlowCalculadoraFeature.RestarDosNumeros
+Given Ingresan 300 a la Calculadora
+-> done: SpecFlowCalculadoraSteps2.GivenIngresanALaCalculadora(300) (0,0s)
+And Y Ingresan 120 a la calculadora
+-> done: SpecFlowCalculadoraSteps2.GivenYIngresanALaCalculadora(120) (0,0s)
+When Cuando llamo a Restar
+-> done: SpecFlowCalculadoraSteps2.WhenCuandoLlamoARestar() (0,0s)
+Then El resultado de la resta debiese ser 180
+-> done: SpecFlowCalculadoraSteps2.ThenElResultadoDeLaRestaDebieseSer(180) (0,0s)
+=> ConsoleBDDSpecFlow.SpecFlowCalculadoraFeature.SumarDosNumeros
+Given Dado Ingrese 50 a la Calculadora
+-> done: SpecFlowCalculadoraSteps.GivenDadoIngreseALaCalculadora(50) (0,0s)
+And Y Ingrese 70 a la calculadora
+-> done: SpecFlowCalculadoraSteps.GivenYIngreseALaCalculadora(70) (0,0s)
+When Cuando invoco Sumar
+-> done: SpecFlowCalculadoraSteps.WhenCuandoInvocoSumar() (0,0s)
+Then Entonces el resultado debiese ser 120
+-> done: SpecFlowCalculadoraSteps.ThenEntoncesElResultadoDebieseSer(120) (0,0s)
+=> ConsoleBDDSpecFlow.SpecFlowCalculadoraFeature
+-> Using app.config

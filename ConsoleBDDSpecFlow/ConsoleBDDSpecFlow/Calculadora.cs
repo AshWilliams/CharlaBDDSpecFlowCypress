@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 namespace ConsoleBDDSpecFlow
 {
     /*
-     nunit3-console.exe --labels=All --out=TestResult.txt "--result=TestResult.xml;format=nunit2" bin\Debug\ConsoleBDDSpecFlow.exe
-     specflow.exe nunitexecutionreport ConsoleBDDSpecFlow.csproj /out:MyResult.html    */
+     * Desde Consola Administración de Paquetes
+     * cd .\ConsoleBDDSpecFlow
+       nunit3-console.exe --labels=All --out=TestResult.txt "--result=TestResult.xml;format=nunit2" bin\Debug\ConsoleBDDSpecFlow.exe
+       specflow.exe nunitexecutionreport ConsoleBDDSpecFlow.csproj /out:MyResult.html    */
     class Calculadora
     {
         public int primerNumero { get; set; }
