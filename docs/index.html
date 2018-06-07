@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>10 Cosas que Necesitas Saber Sobre BDD</title>
+
+		<meta name="description" content="A dummy presentation for BDD on Nubox">
+		<meta name="author" content="stuff">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		
+		<link rel="stylesheet" href="shared/css/reveal.min.css">
+		<link rel="stylesheet" href="shared/css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="shared/css/additional.css">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="shared/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="shared/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="shared/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		  
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Charla Técnica:</h1>
+					<h3>10 Cosas que Necesitas Saber Sobre BDD</h3>
+					<h3>+ Demo SpecFlow y Cypress</h3>
+					<ul>
+						<li>Robert Rozas Navarro</li>
+						<li>https://stackoverflow.com/users/1987838/hackerman</li>
+						<li>https://github.com/AshWilliams</li>			
+					</ul>
+				</section>
+
+				<section>
+					<img src="img/keep calm.png" alt="" style="background: none; box-shadow: none; border: none;">
+				</section>
+
+
+				<section>
+						<h2>1- Qué es BDD</h2>
+						<h4></h4>
+						<br>
+						<code>Dan North</code><br>
+						<br>
+						<img src="img/DanNorth.jpg" alt="" style="background: none; box-shadow: none; border: none;">
+						<p style="display: none">							
+							BDD es una evolución de TDD (Test Driven Development o Desarrollo Dirigido por Pruebas). 
+							De hecho, el concepto de BDD fue inicialmente introducido por Dan North como respuesta a los problemas 
+							que surgían al enseñar TDD.							
+							TDD está basado en 2 prácticas: Escribir las pruebas primero, y Refactorizar después:							
+							TDD: En primer lugar, se escribe una prueba y se verifica que las pruebas fallan. 
+							A continuación, se implementa el código que hace que la prueba pase satisfactoriamente 
+							y seguidamente se refactoriza el código escrito
+							
+							En BDD también vamos a escribir las pruebas antes de escribir el código fuente, 
+							pero en lugar de pruebas unitarias, lo que haremos será escribir pruebas que verifiquen que 
+							el comportamiento del código es correcto desde el punto de vista de negocio. 
+							Tras escribir las pruebas escribimos el código fuente de la funcionalidad que haga que 
+							estas pruebas pasen correctamente. Después refactorizamos el código fuente.
+							
+							BDD es un proceso de desarrollo de software que trata de combinar los aspectos puramente técnivos 
+							y los de negocio, de manera que tengamos un marco de trabajo, y un marco de pruebas, en el que los 
+							requisitos de negocio formen parte del proceso de desarrollo.
+						</p>
+				</section>
+				<section>
+						<h2>2- Qué es Cucumber</h2>
+						<br>
+						<img src="img/bddandcucumber.png" alt="" style="background: none; box-shadow: none; border: none;">
+						<p style="display: none">
+							Cucumber es una de las herramientas que podemos utilizar para automatizar nuestras 
+							pruebas en BDD. Cucumber nos va permitir ejecutar descripciones funcionales en texto 
+							plano como pruebas de software automatizadas.
+							
+							Cucumber fue creada en 2008 por Aslak Hellesoy y está escrito en Ruby, 
+							aunque tiene implementaciones para casi cualquier lenguaje de programación: 
+							JRuby (usando Cucumber-JVM), Java, Groovy, JavaScript, 
+							JavaScript (usando Cucumber-JVM y Rhino), Clojure, Gosu, Lua, 
+							.NET (usando SpecFlow), PHP (usando Behat), Jython, C++ o Tcl..</p>					
+				</section>
+				<section>
+						<h2>3- Qué es Gherkin</h2>
+						<br>
+<pre><code data-trim contenteditable>
+Feature: SpecFlowCalculadora
+	In order to avoid silly mistakes
+	As a math idiot
+	I want to be told the sum of two numbers
+								
+	@mytag
+	Scenario: Sumar Dos Números
+		Given Dado Ingrese 50 a la Calculadora
+		And Y Ingrese 70 a la calculadora
+		When Cuando invoco Sumar 
+		Then Entonces el resultado debiese ser 120
+								
+	Scenario: Restar Dos Números
+		Given Ingresan 300 a la Calculadora
+		And Y Ingresan 120 a la calculadora
+		When Cuando llamo a Restar
+		Then El resultado de la resta debiese ser 180
+</code></pre>									
+
+						<p style="display: none">Gherkin es el lenguaje utilizado para describir las características y escenarios en Cucumber, 
+							proporciona una forma común para que los interesados ​​en negocios, los analistas y los desarrolladores describan el software 
+							y escriban las pruebas de aceptación. Si bien la logística de la estructura de las declaraciones de Gherkin es más 
+							o menos la misma entre las implementaciones, gran parte de la gramática difiere de un proyecto a otro. 
+							Las declaraciones básicas "Dado ... Cuándo ... Entonces" como terminología común permiten a los 
+							equipos construir sus propias condiciones, acciones y descripciones de resultados comprobables.</p>
+				</section>
+				<section>
+						<h2>4- Palabras Clave</h2>
+						<br>								
+						<img src="img/033015_0902_Writingsimp1.png" alt="" style="background: none; box-shadow: none; border: none;">		
+						<p style="display: none">Feature: Indica el nombre de la funcionalidad que vamos a probar. Debe ser un título claro y explícito. Incluímos aquí una descripción en forma de historia de usuario: “Como [rol ] quiero [ característica ] para que [los beneficios]”. Sobre esta descripción empezaremos a construir nuestros escenarios de prueba.
+							Scenario: Describe cada escenario que vamos a probar.
+							Given: Provee contexto para el escenario en que se va a ejecutar el test, tales como punto donde se ejecuta el test, o prerequisitos en los datos. Incluye los pasos necesarios para poner al sistema en el estado que se desea probar.
+							When: Especifica el conjunto de acciones que lanzan el test. La interacción del usuario que acciona la funcionalidad que deseamos testear.
+							Then: Especifica el resultado esperado en el test. Observamos los cambios en el sistema y vemos si son los deseados.</p>
+				</section>
+				<section>
+						<h2>5- Qué es SpecFlow</h2>
+						<br>
+						<img src="img/SPEC-Flow.jpg" alt="" style="background: none; box-shadow: none; border: none;">
+						<p style="display: none">Use SpecFlow para definir, administrar y ejecutar automáticamente pruebas de aceptación legibles 
+							por humanos en proyectos .NET. Escribir pruebas fácilmente comprensibles es una piedra angular del paradigma BDD y 
+							también ayuda a construir una documentación viviente de su sistema.
+
+							SpecFlow es de código abierto y se proporciona bajo una licencia BSD. Como parte de la familia Cucumber, 
+							SpecFlow utiliza el analizador Gherkin oficial y es compatible con el framework .NET, Xamarin y Mono.
+							
+							SpecFlow se integra con Visual Studio, pero también se puede usar desde la línea de comandos (por ejemplo, en un servidor de compilación). 
+							SpecFlow es compatible con marcos de prueba populares: MSTest, NUnit (2 y 3), xUnit 2 y MbUnit.</p>
+				</section>
+
+				<section>
+						<h2>6- SpecFlow en Visual Studio 2017</h2>
+						<br>
+						<img src="img/SpecFlowNUnit3.JPG" alt="" style="background: none; box-shadow: none; border: none;">
+						
+				</section>
+
+				<section>
+						<h2>7- Demo BDD En Visual Studio 2017</h2>
+						<br>
+						<img src="img/DemoVS.JPG" alt="" style="background: none; box-shadow: none; border: none;">						
+				</section>
+				<section>
+						<h2>8- Generación de Documentación Viva</h2>
+						<br>
+						<img src="img/Reporte.JPG" alt="" style="background: none; box-shadow: none; border: none;">						
+				</section>
+				<section>
+						<h2>9- Qué es Cypress.io</h2>
+						<br>
+						<img src="img/cypress.png" alt="" style="background: none; box-shadow: none; border: none;">
+						<p style="display: none">
+							Cypress es una herramienta de prueba de última generación construida para la web moderna. 
+							Nos ocupamos de los principales puntos críticos que enfrentan los desarrolladores y los 
+							ingenieros de control de calidad cuando prueban aplicaciones modernas.
+								Hacemos que sea simple para:								
+								Configurar pruebas
+								Escribir pruebas
+								Ejecutar pruebas
+								Pruebas de depuración
+							Cypress se compara más a menudo con el selenio; sin embargo, Cypress es fundamental y arquitectónicamente diferente. 
+							Cypress no está restringido por las mismas restricciones que el Selenium.
+							Esto le permite escribir pruebas más rápidas, fáciles y confiables..</p>
+				</section>
+				<section>
+						<h2>10- Demo Cypress.io</h2>
+						<br>
+<pre><code data-trim contenteditable>
+describe('Nubox Test Suite', function () {
+ it('Test título de página inicio = Software para contadores y pymes | Nubox', function () {
+ // https://on.cypress.io/visit
+ cy.visit('https://www.nubox.com')  
+ // Here we've made our first assertion using a '.should()' command.     
+ cy.title().should('include', 'Software para contadores y pymes | Nubox')
+ //   ↲               ↲            ↲
+ // subject        chainer      value
+ })
+})		
+</code></pre>		
+				</section>
+
+				<section>
+						<h2>10.1- Menciones Honorables</h2>
+						<br>
+						<ul>
+							<li>Katalon Studio - Gratis: <br> https://www.katalon.com/katalon-studio/</li>
+							<li>Unified Functional Testing (UFT) - Pago: <br> https://software.microfocus.com/en-us/products/unified-functional-automated-testing/overview</li>
+							<li>Ghost Inspector - Freemium: <br> https://ghostinspector.com/</li>
+						</ul>
+				</section>
+				
+				<section>
+						<h2>Preguntas</h2>
+						<br>
+						<img src="img/qa.png" alt="" style="background: none; box-shadow: none; border: none;">
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="shared/lib/js/head.min.js"></script>
+		<script src="shared/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'shared/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'shared/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'shared/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
