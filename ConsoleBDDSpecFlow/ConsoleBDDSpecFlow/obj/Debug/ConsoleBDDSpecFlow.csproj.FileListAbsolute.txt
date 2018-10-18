@@ -37,3 +37,15 @@ C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSp
 C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csproj.CopyComplete
 C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.exe
 C:\Users\Anorak\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.pdb
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe.config
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.exe
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\ConsoleBDDSpecFlow.pdb
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\nunit.framework.dll
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\System.ValueTuple.dll
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\bin\Debug\nunit.framework.xml
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.csprojResolveAssemblyReference.cache
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.exe
+C:\Users\rorozasn\Desktop\CharlaBDDSpecFlowCypress\ConsoleBDDSpecFlow\ConsoleBDDSpecFlow\obj\Debug\ConsoleBDDSpecFlow.pdb

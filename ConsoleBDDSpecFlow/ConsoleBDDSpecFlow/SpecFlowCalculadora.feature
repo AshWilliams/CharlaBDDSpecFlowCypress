@@ -16,3 +16,9 @@ Scenario: Restar Dos Números
 	And Y Ingresan 120 a la calculadora
 	When Cuando llamo a Restar
 	Then El resultado de la resta debiese ser 180
+
+Scenario: Multiplicar Dos Números
+	Given Ingresen 4 a la Calculadora
+	And Y Ingresen 5 a la calculadora
+	When Cuando llamamos a Multiplicar
+	Then El resultado de la multiplicacion debiese ser 20
