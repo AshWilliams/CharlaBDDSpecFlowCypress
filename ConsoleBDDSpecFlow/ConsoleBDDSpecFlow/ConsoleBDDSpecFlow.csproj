@@ -63,6 +63,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SpecFlowCalculadora.feature</DependentUpon>
     </Compile>
+    <Compile Include="SpecFlowCalculadoraSteps3.cs" />
     <Compile Include="Steps\SpecFlowCalculadoraSteps.cs" />
     <Compile Include="Steps\SpecFlowCalculadoraSteps2.cs" />
   </ItemGroup>
